@@ -23,11 +23,10 @@ Core dependencies
 -NumPy
 -pytesseract
 -Tesseract OCR Engine
--Google Colab environment
 
 Features:
-Upload any image from your device
-Automatic preprocessing (resize, grayscale, sharpen, threshold)
-OCR text extraction using Tesseract
-Displays original and processed images
-Outputs recognized text
+Upload any image
+preprocessing: resize, grayscale, sharpen, and threshold
+OCR text extraction
+Display both original and processed image
+Output the extracted text

@@ -1,52 +1,33 @@
 # ComputerVisionProject
-How to Run the Project (Google Colab)
+How to run the project
 
-Open Google Colab
+1-Open Google Colab
 
-Upload the notebook file ProjectCV.ipynb
+2-Upload the .ipynb file
 
-Run the installation cell:
-
+3-Run the installation for ocr:
 !sudo apt install tesseract-ocr
 !pip install pytesseract opencv-python-headless numpy
 
-
-Upload any image:
-
+4-Upload the image:
 from google.colab import files
 uploaded = files.upload()
 
 
-Run the OCR function:
+5-Run the OCR function:
+run_ocr("imageName.jpg/png")
 
-run_ocr("your_image_name.jpg")
+Core dependencies	
+-Python 3
+-OpenCV
+-NumPy
+-pytesseract
+-Tesseract OCR Engine
+-Google Colab environment
 
-Project Structure
-ProjectCV.ipynb   → Main OCR code (Google Colab notebook)
-README.md         → Project documentation
-
-Main Dependencies
-
-Python 3
-
-OpenCV
-
-NumPy
-
-pytesseract
-
-Tesseract OCR Engine
-
-Google Colab environment
-
-Features
-
+Features:
 Upload any image from your device
-
 Automatic preprocessing (resize, grayscale, sharpen, threshold)
-
 OCR text extraction using Tesseract
-
 Displays original and processed images
-
 Outputs recognized text

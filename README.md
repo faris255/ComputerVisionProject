@@ -17,7 +17,7 @@ uploaded = files.upload()
 5-Run the OCR function:
 run_ocr("imageName.jpg/png")
 
-Core dependencies	
+Core dependencies:
 -Python 3
 -OpenCV
 -NumPy
